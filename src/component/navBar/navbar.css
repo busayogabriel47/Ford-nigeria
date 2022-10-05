@@ -1,0 +1,68 @@
+
+
+.navBar {
+    background-color: #fff !important;
+}
+
+#navHome .navbar-nav
+.nav-item .nav-link{
+  color: #003179;
+  font-weight: 500;
+  font-family: ford Antenna;
+}
+
+.ford-font{
+  font-family:ford Antenna
+}
+
+
+.bgBoxShadow{
+  -webkit-box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.75);
+box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.75);
+padding: 1rem 0;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+.menu-icon .menuClick, .closed .close{
+  font-size: 3rem;
+  color: #003179;
+  cursor: pointer;
+}
+
+.closed {
+  float: right;
+  margin-right: 2rem;
+}
+
+.slider.active{
+  top: 0;
+  transition: 1s ease;
+}
+
+.slider{
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  background: #FFFFFF;
+  top: -130%;
+  z-index: 100;
+  transition: 1s ease;
+}
+
+.slider ul{
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.slider ul li a{
+  text-decoration: none;
+  font-size: 1rem;
+  line-height: 0px;
+}

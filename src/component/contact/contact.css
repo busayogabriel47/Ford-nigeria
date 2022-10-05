@@ -1,0 +1,68 @@
+
+.contactHeading{
+    padding-left: 2rem;
+}
+
+.contactUs {
+    background-color: #F7F7F7;
+    padding: 3rem 0rem;
+    text-align: center;
+}
+
+.contactIcons .fa-comments, 
+.contactIcons .fa-comment-medical, 
+.contactIcons .fa-phone{
+    font-size: 2.3rem;
+    margin-bottom: 4px;
+}
+
+.contactIcons p{
+    font-size: 1.1rem;
+}
+.contactIcons .fa-comments, 
+.contactIcons .fa-comment-medical, 
+.contactIcons .fa-phone,
+.contactIcons p{
+    color: #005AA1;
+}
+
+.ContactLine{
+    border-right: 2px solid #D8D8D8;
+}
+
+.basedLine {
+    margin: 3rem 0rem;
+}
+
+.chat h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.chatSub{
+    border-left: 2px solid #D8D8D8;
+    padding-left: 2rem;
+}
+.chatSub p{
+    line-height: 1.2rem;
+}
+
+
+.FMargin{
+
+    margin-bottom: 2rem;
+}
+
+.FMargin h5{
+font-size: 1rem;
+}
+.FMargin ul{
+    list-style-type: none;
+    padding: 0;
+}
+.FMargin ul, li{
+    line-height: 35px;
+    font-size: 0.9rem;
+}
+.FMargin .fa-phone, #phone{
+    color: #0159A4;
+}

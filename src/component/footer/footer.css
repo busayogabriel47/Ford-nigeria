@@ -1,0 +1,79 @@
+.ford-footer{
+    background-color: #00142E;
+}
+
+.blueBg{
+    height: 80px;
+    background-color: #00095B;
+}
+.getUpdates{
+    background-color: #F4F4F4;
+}
+
+.followFord span, .cgFlogo img{
+    float: right;
+}
+
+.fa-facebook-square{
+    color: #5071AA;
+}
+.fa-twitter-square{
+    color: #68C6E1;
+}
+
+.fa-instagram-square{
+    color: #8500C1;
+}
+.fa-youtube-square{
+    color:#CD322D
+}
+
+.fa-envelope, .envelop {
+    color: #00095C;
+}
+
+.envelop:hover{
+    color: #00095C;
+}
+
+.fa-twitter-square, .fa-facebook-square,
+.fa-instagram-square, .fa-youtube-square, .fa-envelope{
+    font-size: 1.3rem;
+    margin-right: 0.2rem;
+}
+
+#siteMap span a, .followFord small{
+    text-decoration: none;
+    color: #969696;
+    font-weight: 500;
+}
+#siteMap span a{
+    font-size: 0.7rem;
+}
+.followFord small {
+    font-size: 1rem;
+}
+
+.cgFlogo p{
+    color: #00095B;
+    float: right;
+    font-size: 0.7rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+
+.ford-font{
+    font-family:ford Antenna;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .getUpdates {
+        text-align: center;
+    }
+    .cgFlogo img, .cgFlogo p, .followFord span{
+        float: none;
+    }
+  }

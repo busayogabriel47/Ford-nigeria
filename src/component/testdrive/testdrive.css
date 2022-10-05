@@ -1,0 +1,28 @@
+.testDrive {
+margin-bottom: 1.5rem;
+}
+
+.testDriveCheck {
+
+}
+
+.testDrive1 h4{
+    color: #397EB6;
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+}
+
+.detailsCol p{
+    color: #397EB6;
+}
+
+form {
+  justify-content: center;
+  display: block;
+  margin-top: 0em;
+  width: 40%;
+}
+
+.testDriveForm{
+    width: 70%;
+}

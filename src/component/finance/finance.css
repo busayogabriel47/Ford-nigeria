@@ -1,0 +1,39 @@
+.track{
+    padding: 1rem;
+    background-color: #F7F7FF;
+}
+
+.track h3{
+    font-size: 3rem;
+    letter-spacing: 0.7rem;
+}
+.track p{
+    font-size: 1.5rem;
+}
+.carKey .fa-solid{
+    background-color: #0276B3;
+    border-radius: 50%;
+    font-size: 3rem;
+    padding: 2rem;
+    color: #fff;
+}
+
+.finance-padding{
+    padding: 4rem;
+}
+
+.swapHeading h4{
+    font-size: 2rem;
+    color: #0373B2;
+}
+.equity{
+    padding: 2rem;
+}
+.equity h4{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.startProcess .btn-ford-blue{
+    letter-spacing: 0.1rem;
+    padding: 0.7rem;
+}

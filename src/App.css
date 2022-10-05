@@ -1,0 +1,488 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: 'ford Antenna';
+  src: url(assets/fonts/ford-font.otf);
+}
+
+@font-face {
+  font-family: 'Handel Gothic';
+  src: url(assets/fonts/Handel.ttf);
+}
+
+.ford-font {
+  font-family: ford Antenna;
+}
+
+.light-font-weight {
+  font-weight: 300;
+}
+
+.ford-royal-blue-bg {
+  background-color: #00142f !important;
+}
+
+.white-bg {
+  background-color: white !important;
+}
+
+.pOff {
+  padding: 0px !important;
+}
+
+.mOff {
+  margin: 0px !important;
+}
+
+.mBOff {
+  margin-bottom: 0px !important;
+}
+
+.mROff {
+  margin-left: 0px !important;
+}
+
+.ford-blue-bg {
+  background-color: #00095b;
+}
+
+.ford-royal-blue-text {
+  color: #00142f;
+}
+
+.half-screen-view-1 {
+  height: 50vh;
+}
+
+.half-screen-view-2 {
+  height: 40vh;
+}
+
+.ford-blue-text {
+  color: #003179;
+}
+
+.ford-grey {
+  background-color: #f7f7f7 !important;
+}
+
+.carousel-indicators {
+  margin-bottom: -5rem;
+}
+
+.grey-strip-height {
+  height: 72px;
+}
+
+.btn-ford-blue:hover {
+  transition: 1s;
+  background-color: #003179;
+  color: white;
+}
+
+.btn-ford-blue {
+  background-color: #00095b;
+  color: #fff;
+  border-radius: 0;
+  font-size: 0.9rem;
+  padding: 0.6rem;
+}
+
+.ford-grey-text {
+  color: #4d4d4d;
+}
+
+.btn-ford-blue-shadow {
+  background-color: #003179;
+  color: #fff;
+  border-radius: 0;
+  font-size: 1.2rem;
+  padding: 0.6rem;
+  box-shadow: #00142f 0 0px 20px 0;
+}
+
+.ford-button-padding-alt {
+  padding: 0.2% 34% !important;
+}
+
+.ford-button-padding {
+  padding: 0.2% 5%;
+}
+
+.ahead-text-size {
+  font-size: 1.5rem;
+}
+
+.nav-menu-width {
+  width: 10% !important;
+}
+
+.nav-menu-width-alt {
+  width: 15% !important;
+}
+
+.standard-text-padding {
+  padding: 0 4%;
+}
+.standard-padding-top-bottom {
+  padding: 3% 0;
+}
+
+.standard-padding-top {
+  padding-top: 3%;
+}
+
+.standard-margin-bottom {
+  margin-bottom: 3%;
+}
+
+.standard-text-padding-alt {
+  padding: 7% 4%;
+}
+
+.text-padding-democratic-banner {
+  padding: 4%;
+}
+
+.standard-section-margin {
+  margin: 2% 0%;
+}
+
+.noDecor {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.signature {
+  font-size: 0.7rem;
+  text-align: right;
+}
+
+.variantAlt {
+  display: none;
+}
+
+.noDecor2 {
+  text-decoration: none;
+  color: #00142f;
+}
+
+.four {
+  height: 400px;
+  width: 400px;
+}
+.white-bg {
+  background-color: white !important;
+}
+
+.navigation-clearance {
+  margin-top: 6.5% !important;
+}
+
+.navigation-clearance-plus {
+  margin-top: 17% !important;
+}
+
+.navigation-clearance-democratic-banner {
+  margin-top: 3%;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.readMore a {
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.advert-space-height {
+  height: 93vh;
+}
+
+.coscharisMotorsFont {
+  font-family: Handel Gothic;
+}
+
+.ford-outline-button {
+  border: 2px solid white;
+  padding: 0.2% 5%;
+  border-radius: 0px;
+  color: white;
+}
+
+.ford-outline-button:hover {
+  transition: 1.5s;
+  background-color: #003179;
+  border: 2px solid white !important ;
+  color: white !important;
+}
+
+.ford-outline-button-blue:hover {
+  transition: 1s;
+  background-color: #003179;
+}
+
+.ford-outline-button-blue {
+  border: 2px solid #00095b;
+  padding: 0.2% 5%;
+  border-radius: 0px;
+  color: #00095b;
+}
+
+.leftHighwayPosition {
+  position: absolute;
+  width: 13%;
+  bottom: -144%;
+}
+
+.rightHighwayPosition {
+  position: absolute;
+  width: 13%;
+  bottom: -78%;
+  left: 88%;
+}
+
+.nav-font-size {
+  font-size: 0.7rem;
+}
+
+.divider {
+  width: 50%;
+  margin: auto;
+  border: 2px solid white;
+  margin-bottom: 0.5rem;
+}
+
+.democratic-banner-text {
+  letter-spacing: 5px;
+}
+
+.variant {
+  color: #fff;
+}
+
+.variant:hover {
+  transition: 1s;
+  background-color: #00142f;
+  color: white;
+  border: transparent;
+}
+
+.variant-menu-height {
+  height: 10vh;
+}
+
+.variant-menu-padding {
+  border-bottom: transparent;
+  border-radius: 0px;
+}
+
+.variant-text {
+  letter-spacing: 4px;
+  position: relative;
+  top: 33%;
+}
+
+.variant-specs-box {
+  padding: 2rem;
+}
+
+.variant-specs-border {
+  border-right: 1px solid #003179;
+}
+
+.quarter-length {
+  width: 20%;
+}
+
+form {
+  justify-content: center;
+  display: block;
+  margin-top: 0em;
+  width: 40%;
+}
+
+.full-width {
+  width: 100%;
+}
+
+#aftersales-tab-tab-register {
+  border: 2px solid #00095b !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-left-radius: 7px !important;
+  color: #00095b;
+}
+
+#aftersales-tab-tab-register.active {
+  background: #00095b !important;
+  color: white !important;
+}
+
+#aftersales-tab-tab-parts {
+  border: 2px solid #00095b !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-right-radius: 7px !important;
+  color: #00095b;
+}
+
+#aftersales-tab-tab-parts.active {
+  background: #00095b !important;
+  color: white !important;
+}
+
+@media (max-width: 991px) {
+  .pOff {
+    padding: 0px !important;
+  }
+
+  .figo-arrangement {
+    bottom: 0%;
+  }
+
+  .navigation-clearance {
+    margin-top: 0 !important;
+  }
+
+  .overflow-allow {
+    overflow-x: scroll;
+  }
+
+  .mobile-margin-clearance {
+    margin-top: 6.5% !important;
+  }
+
+  .mobile-margin-clearance-banner {
+    margin-top: 31% !important;
+  }
+
+  .mobile-margin-clearance-banner-1 {
+    margin-top: 29% !important;
+  }
+
+  .variant-button {
+    font-size: 8px;
+  }
+
+  .variant-text {
+    top: -3%;
+  }
+
+  .leftHighwayPosition {
+    position: absolute;
+    width: 13%;
+    bottom: -59%;
+  }
+
+  .rightHighwayPosition {
+    position: absolute;
+    width: 13%;
+    bottom: -14%;
+    left: 85%;
+  }
+
+  .variant-menu-height {
+    padding: 0px;
+  }
+
+  .half-screen-view-1 {
+    height: 50vh;
+  }
+
+  .half-screen-view-2 {
+    height: 40vh;
+  }
+
+  .standard-margin-top-bottom {
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+
+  .forBlog h5 {
+    width: 40% !important;
+  }
+
+  .carousel-indicators {
+    margin-bottom: 0rem;
+  }
+
+  .slider {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background: #ffffff;
+    top: -170%;
+    z-index: 100;
+    transition: 1s ease;
+  }
+
+  .signature {
+    text-align: center;
+  }
+}
+
+.form-control input,
+.form-control select {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #7176a5;
+  background-color: #fff;
+  background-clip: padding-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  margin-bottom: 2.5rem;
+  appearance: none;
+  border-radius: 0px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.financeForm .form-control input,
+.financeForm .form-control select {
+  width: 23rem;
+}
+
+.form-control {
+  border: none !important;
+}
+form {
+  justify-content: center;
+  display: block;
+  margin-top: 0em;
+  width: 40%;
+}
+
+.formFieldError {
+  border: 1px solid #e11d48;
+}
+
+.form-control p {
+  color: #e11d48;
+}
+
+@media (max-width: 375px) {
+  .variant-menu-height {
+    padding: 0px;
+  }
+
+  .half-screen-view-1 {
+    height: 64vh;
+  }
+
+  .half-screen-view-2 {
+    height: 48vh;
+  }
+}
